@@ -1,4 +1,5 @@
 from pickle import FALSE, TRUE
+from tkinter import E
 
 
 szam=12
@@ -96,3 +97,10 @@ print(szoveg*szam)
 print(szam*szoveg)
 
 
+egesz=12
+print("egész: ", egesz)
+tort =1.2
+
+#szam=float(input("Kérek egy számot"))
+szam=int(input("Kérek egy számot"))
+szerencse=szam+1
